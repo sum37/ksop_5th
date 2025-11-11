@@ -35,26 +35,44 @@ npm run dev
 `src/App.tsx` 파일을 열어보면 주석으로 표시된 미션들이 있습니다.
 
 ### 미션 1: 헤더 배경색 바꾸기
-- 현재: `bg-blue-500`
-- 시도해볼 색상: `bg-red-500`, `bg-green-500`, `bg-purple-500` 등
+- 현재: `bg-gradient-to-r from-blue-600 to-purple-600`
+- 시도해볼 것: 다른 그라데이션 또는 단색 배경
 
 ### 미션 2: 버튼 스타일 바꾸기
 - 색상 변경: `bg-blue-500` → `bg-red-500` 등
 - 크기 변경: `py-2 px-4` → `py-3 px-6` 등
-- 모서리 변경: `rounded` → `rounded-full`, `rounded-lg` 등
+- 모서리 변경: `rounded-lg` → `rounded-full` 등
+- 그라데이션 버튼도 시도해보세요!
 
 ### 미션 3: 카드에 그림자 효과 추가하기
 - `shadow-md` → `shadow-lg`, `shadow-xl`, `shadow-2xl` 등
+- `hover:shadow-xl`로 마우스 호버 효과도 추가 가능
 
-### 미션 4: 텍스트 정렬 바꾸기
-- `text-center` → `text-left`, `text-right`, `text-justify` 등
+### 미션 4: 표 스타일 바꾸기
+- 헤더 배경: `bg-blue-500` → `bg-red-500`, `bg-green-500` 등
+- 행 호버 효과: `hover:bg-gray-50` → `hover:bg-blue-50` 등
+- 테두리 색상 변경
 
-### 미션 5: 배경색과 텍스트 색상 바꾸기
-- 배경색: `bg-gray-100` → `bg-pink-100`, `bg-yellow-100` 등
-- 텍스트 색상: `text-gray-800` → `text-blue-800` 등
+### 미션 5: 배경 그라데이션 바꾸기
+- `from-blue-100 via-purple-100 to-pink-100`
+- 다른 색상 조합 시도: `from-green-100 via-blue-100 to-purple-100`
+- 또는 단색: `bg-yellow-100`
 
-### 미션 6: 푸터 스타일 바꾸기
+### 미션 6: 폼 요소 스타일 바꾸기
+- 입력 필드 테두리 색상 변경
+- 포커스 색상 변경: `focus:border-blue-500` → `focus:border-red-500` 등
+- 배경색 변경
+
+### 미션 7: 배지와 알림 스타일 바꾸기
+- 배지 색상: `bg-green-100` → `bg-red-100`, `bg-yellow-100` 등
+- 텍스트 색상: `text-green-800` → `text-red-800` 등
+
+### 미션 8: 자유 실습 공간
+- 이 섹션은 자유롭게 꾸밀 수 있는 공간입니다!
+
+### 미션 9: 푸터 스타일 바꾸기
 - 배경색과 텍스트 색상을 자유롭게 변경해보세요!
+- 그라데이션도 시도해보세요: `bg-gradient-to-r from-blue-800 to-purple-800`
 
 ---
 
